@@ -18,8 +18,11 @@ import getEventPath from './getEventPath'
 import scrollToElem from './scrollToElem'
 import smoothScroll from './smoothScroll'
 import elementInView from './elementInView'
+import getUrlFields from './getUrlFields'
 import getFormFields from './getFormFields'
 import objectIsEmpty from './objectIsEmpty'
+import toAmountString from './toAmountString'
+import strictTypeOf from './strictTypeOf'
 import countryDialCodes from './countryDialCodes'
 import arrayToListItems from './arrayToListItems'
 
@@ -38,6 +41,9 @@ export {
   smoothScroll,
   elementInView,
   objectIsEmpty,
+  toAmountString,
+  getUrlFields,
+  strictTypeOf,
   getFormFields,
   arrayToListItems,
   countryDialCodes,
